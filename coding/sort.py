@@ -46,10 +46,24 @@ def findElement():
     # 找不同
     print(set(a) ^ set(b))
 
+# 列表生成器
+def bulider():
+    a = [1, 3, 5, 7, 9]
+    # 方法 1
+    # for i in range (len(a)):
+    #     a[i] += 1
+    # print(a)
+
+    # 方法 2
+    # a = map(lambda x:x+1, a)
+    # for i in a:
+    #     print(i)
+
 if __name__ == '__main__':
     # sortDict()
     # print(odd(10))
     # print(strListToIntList())
     # print(delRepeatItem())
     # multiplication()
-    findElement()
+    # findElement()
+    bulider()
