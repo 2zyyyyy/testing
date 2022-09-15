@@ -55,9 +55,9 @@ def bulider():
     # print(a)
 
     # 方法 2
-    # a = map(lambda x:x+1, a)
-    # for i in a:
-    #     print(i)
+    a = map(lambda x:x+1, a)
+    for i in a:
+        print(i)
 
 if __name__ == '__main__':
     # sortDict()
