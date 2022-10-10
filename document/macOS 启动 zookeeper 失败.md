@@ -6,7 +6,7 @@ macOS 在终端启动 zookeeper。使用以下命令：
 /usr/local/Cellar/kafka/3.1.0/bin/zookeeper-server-start /usr/local/etc/kafka/zookeeper.properties &
 ```
 
-如果出现以下的错误信息：
+出现以下的错误信息：
 
 ```powershell
 /usr/local/Cellar/kafka/3.1.0/libexec/bin/kafka-run-class.sh: line 342: /Users/gilbert/@@HOMEBREW_JAVA@@/bin/java: No such file or directory
@@ -28,7 +28,7 @@ macOS 在终端启动 zookeeper。使用以下命令：
   - 终端输入`echo $JAVA_HOME`,查看对应的环境变量具体的路径
     - 执行失败可能就是这个 zookeeper-server-start 中 $JAVA_HOME 和系统环境变量中JAVA_HOME值没有对应上
 
-####3、解决方案
+#### 3、解决方案
 
 上一张截图中的红框原先的值是JAVA_HOME变量（ JAVA="$JAVA_HOME/bin/java"）,为了解决这个问题可以使用系统环境变量的常量来替换这个变量（具体的值根据自己环境变量配置来修改）。
 
