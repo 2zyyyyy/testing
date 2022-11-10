@@ -1,0 +1,141 @@
+{
+  "main": {
+    "id": "ade39f3834744a30",
+    "type": "split",
+    "children": [
+      {
+        "id": "5a6a1e3b13737dbf",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c66a18470610e805",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "document/macOS下Jmeter 操作指南.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "7d667fc54b11a83c",
+    "type": "split",
+    "children": [
+      {
+        "id": "3b029ab69c448855",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "433af81eb644841c",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "2b60d8cfed8d6356",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "d8bd29bb2e3c4f20",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "1b1960ec7d9e1e49",
+    "type": "split",
+    "children": [
+      {
+        "id": "78551b04b04df4e9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6cd47766d7e3ff8d",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "document/macOS下Jmeter 操作指南.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "e5a1ee34e3e63afd",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "document/macOS下Jmeter 操作指南.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "5dee9e903f2b6cde",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "2324b3ee1e4047a3",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "document/macOS下Jmeter 操作指南.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "c66a18470610e805",
+  "lastOpenFiles": []
+}

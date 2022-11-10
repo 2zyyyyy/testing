@@ -1,0 +1,56 @@
+2022-11-10 17:13:28,435 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2022-11-10 17:13:28,477 INFO o.a.j.JMeter: Loading user properties from: /usr/local/Cellar/jmeter/5.4.3/libexec/bin/user.properties
+2022-11-10 17:13:28,477 INFO o.a.j.JMeter: Loading system properties from: /usr/local/Cellar/jmeter/5.4.3/libexec/bin/system.properties
+2022-11-10 17:13:28,488 INFO o.a.j.JMeter: Copyright (c) 1998-2021 The Apache Software Foundation
+2022-11-10 17:13:28,495 INFO o.a.j.JMeter: Version 5.4.3
+2022-11-10 17:13:28,495 INFO o.a.j.JMeter: java.version=17.0.2
+2022-11-10 17:13:28,496 INFO o.a.j.JMeter: java.vm.name=OpenJDK 64-Bit Server VM
+2022-11-10 17:13:28,496 INFO o.a.j.JMeter: os.name=Mac OS X
+2022-11-10 17:13:28,496 INFO o.a.j.JMeter: os.arch=x86_64
+2022-11-10 17:13:28,496 INFO o.a.j.JMeter: os.version=12.6
+2022-11-10 17:13:28,496 INFO o.a.j.JMeter: file.encoding=UTF-8
+2022-11-10 17:13:28,496 INFO o.a.j.JMeter: java.awt.headless=null
+2022-11-10 17:13:28,496 INFO o.a.j.JMeter: Max memory     =1073741824
+2022-11-10 17:13:28,496 INFO o.a.j.JMeter: Available Processors =8
+2022-11-10 17:13:28,509 INFO o.a.j.JMeter: Default Locale=English (EN)
+2022-11-10 17:13:28,509 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2022-11-10 17:13:28,509 INFO o.a.j.JMeter: JMeterHome=/usr/local/Cellar/jmeter/5.4.3/libexec
+2022-11-10 17:13:28,509 INFO o.a.j.JMeter: user.dir  =/Users/gilbert/go/src/testing
+2022-11-10 17:13:28,509 INFO o.a.j.JMeter: PWD       =/Users/gilbert/go/src/testing
+2022-11-10 17:13:28,511 INFO o.a.j.JMeter: IP: 127.0.0.1 Name: gilbertdeMacBook-Pro-2.local FullName: localhost
+2022-11-10 17:13:28,984 INFO o.a.j.JMeter: Setting LAF to: com.github.weisj.darklaf.DarkLaf:com.github.weisj.darklaf.theme.DarculaTheme
+2022-11-10 17:13:30,394 INFO o.a.j.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties
+2022-11-10 17:13:31,513 INFO o.j.r.JARSourceHTTP: Using proxy 127.0.0.1:7890
+2022-11-10 17:13:31,520 INFO o.j.r.JARSourceHTTP: Using proxy 127.0.0.1:7890
+2022-11-10 17:13:31,572 INFO o.j.r.JARSourceHTTP: Requesting https://jmeter-plugins.org/repo/?installID=mac_os_x-d70cbc0d4f4a9fec05ab0c0f4c1205b0-gui
+2022-11-10 17:13:41,989 WARN o.j.r.PluginManagerMenuItem: Failed to load plugin updates info
+javax.net.ssl.SSLHandshakeException: Remote host terminated the handshake
+	at sun.security.ssl.SSLSocketImpl.handleEOF(SSLSocketImpl.java:1709) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.decode(SSLSocketImpl.java:1508) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.readHandshakeRecord(SSLSocketImpl.java:1415) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:450) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:421) ~[?:?]
+	at org.apache.http.conn.ssl.SSLSocketFactory.createLayeredSocket(SSLSocketFactory.java:570) ~[httpclient-4.5.12.jar:4.5.12]
+	at org.apache.http.conn.ssl.SSLSocketFactory.createLayeredSocket(SSLSocketFactory.java:450) ~[httpclient-4.5.12.jar:4.5.12]
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.updateSecureConnection(DefaultClientConnectionOperator.java:220) ~[httpclient-4.5.12.jar:4.5.12]
+	at org.apache.http.impl.conn.ManagedClientConnectionImpl.layerProtocol(ManagedClientConnectionImpl.java:419) ~[httpclient-4.5.12.jar:4.5.12]
+	at org.apache.http.impl.client.DefaultRequestDirector.establishRoute(DefaultRequestDirector.java:808) ~[httpclient-4.5.12.jar:4.5.12]
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:609) ~[httpclient-4.5.12.jar:4.5.12]
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:440) ~[httpclient-4.5.12.jar:4.5.12]
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835) ~[httpclient-4.5.12.jar:4.5.12]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83) ~[httpclient-4.5.12.jar:4.5.12]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56) ~[httpclient-4.5.12.jar:4.5.12]
+	at org.jmeterplugins.repository.JARSourceHTTP.execute(JARSourceHTTP.java:499) ~[jmeter-plugins-manager-1.7.jar:?]
+	at org.jmeterplugins.repository.JARSourceHTTP.execute(JARSourceHTTP.java:494) ~[jmeter-plugins-manager-1.7.jar:?]
+	at org.jmeterplugins.repository.JARSourceHTTP.getJSON(JARSourceHTTP.java:152) ~[jmeter-plugins-manager-1.7.jar:?]
+	at org.jmeterplugins.repository.JARSourceHTTP.getRepositories(JARSourceHTTP.java:276) ~[jmeter-plugins-manager-1.7.jar:?]
+	at org.jmeterplugins.repository.JARSourceHTTP.getRepo(JARSourceHTTP.java:304) ~[jmeter-plugins-manager-1.7.jar:?]
+	at org.jmeterplugins.repository.PluginManager.load(PluginManager.java:71) ~[jmeter-plugins-manager-1.7.jar:?]
+	at org.jmeterplugins.repository.PluginManagerMenuItem$1.run(PluginManagerMenuItem.java:38) [jmeter-plugins-manager-1.7.jar:?]
+Caused by: java.io.EOFException: SSL peer shut down incorrectly
+	at sun.security.ssl.SSLSocketInputRecord.read(SSLSocketInputRecord.java:483) ~[?:?]
+	at sun.security.ssl.SSLSocketInputRecord.readHeader(SSLSocketInputRecord.java:472) ~[?:?]
+	at sun.security.ssl.SSLSocketInputRecord.decode(SSLSocketInputRecord.java:160) ~[?:?]
+	at sun.security.ssl.SSLTransport.decode(SSLTransport.java:111) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.decode(SSLSocketImpl.java:1500) ~[?:?]
+	... 20 more
