@@ -106,7 +106,7 @@ java.lang.NoClassDefFoundError: Could not initialize class org.apache.jmeter.gui
 
 - 线程组是一个测试计划的开始点
 - 在一个测试计划中的所有元件都必须在某个线程组下
-- 线程组决定 Jmeter 执行测试计划的<font color=red>**线程数**</font>
+- 线程组决定 Jmeter 执行测试计划的<font color=red>线程数</font>
 
 **线程组的作用**
 
@@ -144,7 +144,7 @@ java.lang.NoClassDefFoundError: Could not initialize class org.apache.jmeter.gui
   - ramp-up 时间（秒）：
     - 预期线程组的所有线程从启动-运行-释放的总时间
     - ramp up=0时，表示瞬时加压，启动线程的时间无限趋近于0
-    - **特别注意：**在负载测试的时候，尽量**把ramp up设置大**一些，让性能曲线平缓，容易找到瓶颈点
+    - **特别注意：在负载测试的时候，尽量**把ramp up设置大**一些，让性能曲线平缓，容易找到瓶颈点
   - 循环次数：
     - 每个线程循环执行的次数，**默认一次（便于理解：线程的迭代次数、重复发起请求的次数）**
     - 如果设置为**永远**，那么 jmeter 将以最大的可能去发送请求，以此测试出**最大并发数**
@@ -153,11 +153,11 @@ java.lang.NoClassDefFoundError: Could not initialize class org.apache.jmeter.gui
 
 - 调度器
 
-  **调度器的作用：**控制每个线程组运行的持续时间以及它在多少秒后再启动
+  **调度器的作用：控制每个线程组运行的持续时间以及它在多少秒后再启动
 
-  - **持续时间（Duration ）：**持续时间；线程组运行的持续时间
+  - **持续时间（Duration ）：持续时间；线程组运行的持续时间
 
-  - **启动延迟（Startup Delay）：**测试计划开始后，线程组的**线程**将在多少秒后**再启动运行**
+  - **启动延迟（Startup Delay）：测试计划开始后，线程组的**线程**将在多少秒后**再启动运行**
 
     **调度器和循环次数的关系**
 
@@ -182,8 +182,8 @@ java.lang.NoClassDefFoundError: Could not initialize class org.apache.jmeter.gui
 
   **足够短，Ramp-up还必须足够短，保证最后一个线程在第一个线程完成之前开始运行**
 
-  - 如果 Ramp-up 过大，则会降低访问峰值的负载，即没有达到预期的压力峰值，无法获取准确的服务器最大负载情况**（过大的 ramp-up period ）**
-  - **具体的表现为：**一些线程还没有启动，初期启动的部分线程已经结束了**（导致实际并发量并会小于预期并发量）**
+  - 如果 Ramp-up 过大，则会降低访问峰值的负载，即没有达到预期的压力峰值，无法获取准确的服务器最大负载情况（过大的 ramp-up period ）
+  - **具体的表现为：一些线程还没有启动，初期启动的部分线程已经结束了**（导致实际并发量并会小于预期并发量）
 
   **如何确定ramp-up period**
 
@@ -191,6 +191,21 @@ java.lang.NoClassDefFoundError: Could not initialize class org.apache.jmeter.gui
   - 初始的 ramp-up period = 平均点击率= 总线程/点击率；假如线程数=100，点击率=10次/s，则ramp-up period = 100/10 = 10s
 
 ### 测试计划参数详解
+![](https://s2.loli.net/2022/11/15/mUifgOb2PwByvCA.png)
+- 用户定义的变量
+	全局变量，针对所有线程组都可以共用
+	- 一般添加一些系统常用的配置
+	- 不建议在测试计划上添加变量，因为不方便启用（disable）和禁用（enable）
+	- 可以添加用户自定义变量组件来代替，如：
+		![](https://s2.loli.net/2022/11/15/thJUP9DQTGdxsM6.png)
+- 独立运行每个线程组（例如在一个组运行结束后启动下一个）
+	- 不勾选（默认），也就是各线程组并行、随机运行
+	- 勾选后，用于控制测试计划中的多个线程组的执行顺序，保证顺序执行各线程组
+		*注意事项*
+		- 线程组中的取样器是根据列表的顺序执行的（从上到下）
+		- 交替控制器、随机控制器、随机顺序控制器、循环控制器可以改变取样器的执行顺序
+- 主线程结束后运行 tearDown 线程组
+- 函数测试模式
 
 
   
