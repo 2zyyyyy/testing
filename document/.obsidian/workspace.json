@@ -1,0 +1,146 @@
+{
+  "main": {
+    "id": "f6553ca20d3e6a4c",
+    "type": "split",
+    "children": [
+      {
+        "id": "cf889857c65dc08e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f815da1cecaf7628",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "测试日常记录.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "de6bb2dcfeb15d9b",
+    "type": "split",
+    "children": [
+      {
+        "id": "4501132f66e34e2c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7fc581de3ee570e5",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "c4089fe2bc2cc387",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "fdadc61fcf61a5ed",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "9e03a62ce758b610",
+    "type": "split",
+    "children": [
+      {
+        "id": "11bc5b8700283eca",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "81eea95672ff83fe",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "测试日常记录.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "285595ac8e1544db",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "测试日常记录.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "122ca9ed520e0652",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "f7c3fd497ea62e08",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "测试日常记录.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "7fc581de3ee570e5",
+  "lastOpenFiles": [
+    "macOS 启动 zookeeper 失败.md",
+    "macOS下Jmeter 操作指南.md",
+    "MySQL必知必会.md",
+    "测试日常记录.md"
+  ]
+}

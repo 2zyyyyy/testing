@@ -206,6 +206,16 @@ java.lang.NoClassDefFoundError: Could not initialize class org.apache.jmeter.gui
 		- 交替控制器、随机控制器、随机顺序控制器、循环控制器可以改变取样器的执行顺序
 - 主线程结束后运行 tearDown 线程组
 - 函数测试模式
+- ![](
+
+
+
+
+
+
+
+
+
 
 
   
