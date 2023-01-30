@@ -25,8 +25,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "流水账.md",
-                "mode": "preview",
+                "file": "测试interview记录总结.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -78,11 +78,13 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "9e03a62ce758b610",
@@ -98,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "流水账.md",
+                "file": "测试interview记录总结.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "流水账.md",
+                "file": "测试interview记录总结.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "流水账.md"
+                "file": "测试interview记录总结.md"
               }
             }
           }
@@ -152,7 +154,7 @@
   "active": "c893ba0b3688ebcd",
   "lastOpenFiles": [
     "测试日常记录.md",
-    "流水账.md",
+    "测试interview记录总结.md",
     "macOS下Jmeter 操作指南.md",
     "macOS 启动 zookeeper 失败.md",
     "MySQL必知必会.md"
