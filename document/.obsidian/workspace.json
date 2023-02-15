@@ -25,8 +25,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "测试interview记录总结.md",
-                "mode": "preview",
+                "file": "测试相关知识点沉淀.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "测试interview记录总结.md",
+                "file": "测试相关知识点沉淀.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "测试interview记录总结.md",
+                "file": "测试相关知识点沉淀.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "测试interview记录总结.md"
+                "file": "测试相关知识点沉淀.md"
               }
             }
           }
@@ -154,7 +154,7 @@
   "active": "c893ba0b3688ebcd",
   "lastOpenFiles": [
     "测试日常记录.md",
-    "测试interview记录总结.md",
+    "测试相关知识点沉淀.md",
     "macOS下Jmeter 操作指南.md",
     "macOS 启动 zookeeper 失败.md",
     "MySQL必知必会.md"
