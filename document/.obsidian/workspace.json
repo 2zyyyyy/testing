@@ -20,12 +20,12 @@
             }
           },
           {
-            "id": "c893ba0b3688ebcd",
+            "id": "ad31780f49229738",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "测试相关知识点沉淀.md",
+                "file": "2023 Go.md",
                 "mode": "source",
                 "source": false
               }
@@ -78,13 +78,11 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "9e03a62ce758b610",
@@ -100,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "测试相关知识点沉淀.md",
+                "file": "2023 Go.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "测试相关知识点沉淀.md",
+                "file": "2023 Go.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,8 +138,16 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "测试相关知识点沉淀.md"
+                "file": "2023 Go.md"
               }
+            }
+          },
+          {
+            "id": "5aedd99fbd3b3b49",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
             }
           }
         ],
@@ -162,11 +168,12 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "c893ba0b3688ebcd",
+  "active": "ad31780f49229738",
   "lastOpenFiles": [
-    "测试日常记录.md",
-    "测试相关知识点沉淀.md",
     "macOS下Jmeter 操作指南.md",
+    "2023 Go.md",
+    "测试相关知识点沉淀.md",
+    "测试日常记录.md",
     "macOS 启动 zookeeper 失败.md",
     "MySQL必知必会.md"
   ]
